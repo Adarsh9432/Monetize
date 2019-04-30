@@ -1,0 +1,8 @@
+<resources>
+
+    <!-- time for sliding process: 3 seconds -->
+
+    <integer name="open_activity_time">4000</integer>
+    <integer name="close_activity_time">4000</integer>
+
+</resources>

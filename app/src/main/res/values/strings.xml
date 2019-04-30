@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Monetize</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mainActivity_btn_text">Sign Up</string>
+    <string name="tv_mainActivity">Already have an account? Login Here</string>
+    <string name="tv_paid_via_fragmentFirst">paid via</string>
+    <string name="tv_earn_easy_money_firstFragment">Earn easy money.</string>
+    <string name="txt_username_or_email">Username or Email</string>
+    <string name="tv_username">Username</string>
+    <string name="txt_password">Password</string>
+    <string name="tv_what_is_your_year_of_birth">What is your year of birth</string>
+    <string name="alphabets">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="email_text">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.@</string>
+    <string name="tv_pick_a_nusername">Pick a \nusername</string>
+    <string name="tv_what_s_your_nfirst_name">What\'s your\nFirst name?</string>
+    <string name="tv_what_s_your_nlast_name">What\'s your  \nLast name?</string>
+    <string name="tv_what_s_your_nnumber">What\'s your \nnumber?</string>
+    <string name="tv_welcome">welcome</string>
+    <string name="tv_login">Login</string>
+    <string name="tv_first_name">First Name \u0020:</string>
+    <string name="tv_last_name">Last Name \u0020\u0020:</string>
+    <string name="tv_email">Email\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020:</string>
+    <string name="tv_user_name">User Name \u0020:</string>
+    <string name="tv_phone">Phone\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020:</string>
+    <string name="tv_what_s_your_nemail">What\'s your \nemail?</string>
+    <string name="tv_hint_email">Email</string>
+    <string name="tv_type_name">Type Name</string>
+    <string name="tv_spend_your_mepoints_on_the_n_mobile_marketplace">Spend your MePoints on the  \nmobile marketplace</string>
+    <string name="tv_tell_us_a_nlittle_more">Tell us a \nlittle more</string>
+    <string name="tv_my_gender_is">My gender is</string>
+    <string name="tv_male">male</string>
+    <string name="tv_female">female</string>
+    <string name="tv_other">other</string>
+    <string name="tv_finish">Finish</string>
+    <string name="tv_number">Number</string>
+    <string name="tv_pick_a_npassword">Pick a \npassword</string>
+    <string name="tv_how_easy_simple_browse_n_and_shop_as_usual">How Easy? Simple browse  \nand shop as usual.</string>
+    <string name="tv_your_data_is_as_safe_as_n_as_your_money">Your data is as safe as \nyour money.</string>
+    <string name="tv_verify_email">Verify Email</string>
+    <string name="country_code_digits">+123456789</string>
+
+</resources>

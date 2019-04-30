@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg_green"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="@dimen/fragmentsSignup_paddingBottom"
+    tools:context=".signup_and_login.NumberFragment">
+
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginTop="@dimen/margin_30dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/width_100dp"
+        android:layout_height="@dimen/heigth_12dp"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:layout_marginBottom="@dimen/margin_10dp"
+        android:background="@drawable/custom_progress_bar_background"
+        app:layout_constraintBottom_toTopOf="@id/tv_number"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <ProgressBar
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="42dp"
+            android:layout_height="@dimen/heigth_12dp"
+            android:progressDrawable="@drawable/custom_progress_bar_dot" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_number"
+        style="@style/fragmentTextViewBehaviour"
+        android:text="@string/tv_what_s_your_nnumber"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <EditText
+            android:id="@+id/country_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:background="@null"
+            android:digits="@string/country_code_digits"
+            android:hint="+91"
+            android:inputType="text"
+            android:maxLength="3"
+            android:paddingTop="@dimen/margin_15dp"
+            android:paddingBottom="@dimen/margin_10dp"
+            android:textColor="@color/color_white"
+            android:textColorHint="@color/color_login_tv_welcome"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="@dimen/txt_size_25sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+
+            />
+
+        <EditText
+            android:id="@+id/et_number"
+            style="@style/fragmentEditTextBehaviour"
+            android:layout_marginLeft="@dimen/margin_10dp"
+            android:hint="@string/tv_number"
+            android:inputType="number"
+            android:maxLength="10"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/img_next"
+            style="@style/fragmentsSignupNextImage" />
+
+        <!--given padding in edit text and imageview for maintaining the gap between keyboard
+        and edit text-->
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

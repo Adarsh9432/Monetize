@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="tv_color_mainActivity">#DDDBDB</color>
+    <color name="tv_paid_color_fragmentFirst">#696969</color>
+    <color name="color_white">#ffffff</color>
+    <color name="hj">#FFFFFF</color>
+    <color name="light_white">#b9f6ca</color>
+    <color name="color_login_tv_welcome">#AEF1D9</color>
+    <color name="light_green_color">#69f0ae</color>
+    <color name="black">#000000</color>
+    <color name="year_picker_color">#00d889</color>
+    <color name="login_page_hint">#BCBFBF</color>
+</resources>

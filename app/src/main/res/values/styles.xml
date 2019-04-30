@@ -1,0 +1,126 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#32CD32</item>
+        <item name="colorPrimaryDark">#3cb371</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#32cd32</item>
+        <item name="colorPrimaryDark">#32cd32</item>
+        <item name="colorAccent">#D81B60</item>
+    </style>
+
+    <style name="fragmentEditTextBehaviour" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">@dimen/txt_size_25sp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColorHint">#aef1d9</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+
+    </style>
+
+
+    <style name="fragmentTextViewBehaviour" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_below">@+id/view</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="fragmentsSignupNextImage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_login_button</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <!--<item name="android:paddingBottom">10dp</item>-->
+    </style>
+
+    <style name="splashFragmentsTextView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@+id/view</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="verifyEmail_EditText" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">5dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:inputType">number</item>
+
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="verifyEmail_EditText_RelativeLayout" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/verify_email_edit_text_background</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="genderFragment_cardView" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="cardBackgroundColor">@color/light_green_color</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="cardElevation"></item>
+        <item name="cardCornerRadius">6dp</item>
+    </style>
+
+    <style name="genderFragment_male_female_other_txt" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/color_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:scaleX">1.1</item>
+        <item name="android:textSize">@dimen/txt_size_20sp</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+
+    <style name="wheel_picker">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

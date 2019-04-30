@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg_green"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".signup_and_login.VerifyEmailFragment">
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_20dp"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        app:layout_constraintBottom_toTopOf="@id/relativeLayout_verifyEmail"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout_verifyEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout_progressBar"
+            android:layout_width="@dimen/width_100dp"
+            android:layout_height="@dimen/heigth_12dp"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:background="@drawable/custom_progress_bar_background"
+            app:layout_constraintBottom_toTopOf="@id/tv_last_name"
+            app:layout_constraintLeft_toLeftOf="parent">
+
+            <ProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/heigth_12dp"
+                android:progressDrawable="@drawable/custom_progress_bar_dot" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_verify_email"
+            style="@style/fragmentTextViewBehaviour"
+            android:layout_below="@id/linearLayout_progressBar"
+            android:text="@string/tv_verify_email" />
+
+        <ImageView
+            android:id="@+id/img_verify_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_verify_email"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:src="@drawable/sub_copy_verify" />
+
+        <LinearLayout
+            android:id="@+id/verify_linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_verify_email"
+            android:layout_marginLeft="@dimen/margin_15dp"
+            android:layout_marginTop="@dimen/margin_20dp"
+            android:layout_marginRight="@dimen/margin_15dp">
+
+            <RelativeLayout
+                android:id="@+id/otp1_layout"
+                style="@style/verifyEmail_EditText_RelativeLayout">
+
+                <EditText
+                    android:id="@+id/et_otp1"
+                    style="@style/verifyEmail_EditText"
+                    android:layout_above="@id/frame1"
+                    android:backgroundTint="@color/color_white"
+                    android:inputType="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/height_6dp"
+                        android:background="@color/color_white" />
+
+                    <ImageView
+                        android:id="@+id/otp1_dot"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"
+                        android:src="@drawable/otp_dot"
+                        android:visibility="gone"
+
+                        />
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/otp2_layout"
+                style="@style/verifyEmail_EditText_RelativeLayout"
+
+                >
+
+                <EditText
+                    android:id="@+id/et_otp2"
+                    style="@style/verifyEmail_EditText"
+                    android:layout_above="@id/frame2"
+                    android:backgroundTint="@color/color_white"
+                    android:inputType="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/height_6dp"
+                        android:background="@color/color_white" />
+
+                    <ImageView
+                        android:id="@+id/otp2_dot"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"
+                        android:src="@drawable/otp_dot"
+                        android:visibility="gone"
+
+                        />
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/otp3_layout"
+                style="@style/verifyEmail_EditText_RelativeLayout">
+
+                <EditText
+                    android:id="@+id/et_otp3"
+                    style="@style/verifyEmail_EditText"
+                    android:layout_above="@id/frame3"
+                    android:backgroundTint="@color/color_white"
+                    android:inputType="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/height_6dp"
+                        android:background="@color/color_white" />
+
+                    <ImageView
+                        android:id="@+id/otp3_dot"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"
+                        android:src="@drawable/otp_dot"
+                        android:visibility="gone"
+
+                        />
+                </FrameLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/otp4_layout"
+                style="@style/verifyEmail_EditText_RelativeLayout">
+
+                <EditText
+                    android:id="@+id/et_otp4"
+                    style="@style/verifyEmail_EditText"
+                    android:layout_above="@id/frame4"
+                    android:backgroundTint="@color/color_white"
+                    android:inputType="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/height_6dp"
+                        android:background="@color/color_white" />
+
+                    <ImageView
+                        android:id="@+id/otp4_dot"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"
+                        android:src="@drawable/otp_dot"
+                        android:visibility="gone"
+
+                        />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/otp5_layout"
+                style="@style/verifyEmail_EditText_RelativeLayout">
+
+                <EditText
+                    android:id="@+id/et_otp5"
+                    style="@style/verifyEmail_EditText"
+                    android:layout_above="@id/frame5"
+                    android:backgroundTint="@color/color_white"
+                    android:inputType="number" />
+
+                <FrameLayout
+                    android:id="@+id/frame5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true">
+
+                    <View
+                        android:id="@+id/view5"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/height_6dp"
+                        android:background="@color/color_white" />
+
+                    <ImageView
+                        android:id="@+id/otp5_dot"
+                        android:layout_width="@dimen/margin_20dp"
+                        android:layout_height="@dimen/margin_20dp"
+                        android:src="@drawable/otp_dot"
+                        android:visibility="gone"
+
+                        />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/resend_code_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/verify_linearLayout"
+            android:layout_marginLeft="@dimen/margin_20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="@dimen/margin_20dp">
+
+            <TextView
+                android:id="@+id/tv_resend_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/light_white" />
+
+            <ImageView
+                android:id="@+id/img_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_login_button"
+
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg_green"
+    android:paddingTop="@dimen/splash_fragment_paddingTop"
+    tools:context=".splash.SecondFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/view"
+        android:gravity="center">
+
+        <ImageView
+
+            android:id="@+id/splash_cash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_browser_illustration" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/centreViewHeight_splash"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/tv_secondFragment"
+        style="@style/splashFragmentsTextView"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tv_how_easy_simple_browse_n_and_shop_as_usual" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_secondFragment"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_18dp"
+        android:src="@drawable/sub_copy_2" />
+
+</RelativeLayout>

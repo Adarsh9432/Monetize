@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg_green"
+    tools:context=".splash.MainActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/mainActivity_viewHeight"
+        android:layout_centerInParent="true" />
+
+    <LinearLayout
+        android:id="@+id/indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btnsignup_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/mainActivity_btn_marginLeftRight"
+            android:layout_marginRight="@dimen/mainActivity_btn_marginLeftRight"
+            android:layout_marginBottom="@dimen/mainActivity_btn_marginBottom"
+            android:background="@drawable/button_background"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/mainActivity_btn_padding"
+            android:text="@string/mainActivity_btn_text"
+            android:textAllCaps="false"
+            android:textSize="@dimen/mainActivity_btnTxt_size" />
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnsignup_"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/tv_marginBottom_mainActivity"
+            android:text="@string/tv_mainActivity"
+            android:textColor="@color/tv_color_mainActivity"
+            android:textSize="@dimen/tv_size_mainActivity"
+
+            />
+
+    </RelativeLayout>
+</RelativeLayout>

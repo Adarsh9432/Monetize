@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top">12dp</dimen>
+    <dimen name="mainActivity_viewHeight">20dp</dimen>
+    <dimen name="mainActivity_btnTxt_size">16sp</dimen>
+    <dimen name="mainActivity_btn_padding">14dp</dimen>
+    <dimen name="mainActivity_btn_marginLeftRight">12dp</dimen>
+    <dimen name="mainActivity_btn_marginBottom">25dp</dimen>
+    <dimen name="tv_size_mainActivity">16sp</dimen>
+    <dimen name="tv_marginBottom_mainActivity">20dp</dimen>
+    <dimen name="splash_fragment_paddingTop">60dp</dimen>
+    <dimen name="fragmentFirst_imgSplashCash_maxWidth">200dp</dimen>
+    <dimen name="tv_paid_size_firstFragment">18sp</dimen>
+    <dimen name="img_payPal_marginTop">5dp</dimen>
+    <dimen name="centreViewHeight_splash">40dp</dimen>
+    <dimen name="tv_easyearnmoney_marginTop">10dp</dimen>
+    <dimen name="img_bottomFirstFragment_marginTop">35dp</dimen>
+    <dimen name="imgBottom_splashFragments_marginTop">15dp</dimen>
+    <dimen name="viewHeight_fragmentsSignup">5dp</dimen>
+    <dimen name="fragmentsSignup_paddingBottom">20dp</dimen>
+    <dimen name="progressBar_width_height">30dp</dimen>
+    <dimen name="fragmentEmail_frameLayout_width_height">52dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="width_height_50dp">50dp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="txt_size_15sp">15sp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="txt_size_20sp">20sp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="heigth_12dp">12dp</dimen>
+    <dimen name="width_100dp">100dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="height_150dp">150dp</dimen>
+    <dimen name="space_4dp">4dp</dimen>
+    <dimen name="txt_size_28sp">28sp</dimen>
+    <dimen name="height_6dp">6dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="txt_size_25sp">25sp</dimen>
+
+
+</resources>
